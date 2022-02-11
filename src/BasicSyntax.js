@@ -19,7 +19,7 @@ export function romanToInteger(str) {
      }
     }
     
-    for(i=0;i<str.length;i++)
+    for(let i=0;i<str.length;i++)
     {
      if(arab[i]<arab[i+1])
       result=result-arab[i];
